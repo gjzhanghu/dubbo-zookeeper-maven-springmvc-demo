@@ -1,4 +1,4 @@
-package com.baoy.test;
+﻿package com.baoy.test;
  
 
 import java.util.List;
@@ -30,7 +30,7 @@ public class ConsumerTest {
 	@Test
 	public  void allUsersTest() { 
 		 List<User> allUsers = userService.getAllUsers();
-		System.out.println("\r\n\r\n\r\n"+allUsers.toString()+"\r\n\r\n\r\n"); 
+		System.out.println("\r\n\r\n\r\n"+allUsers.toString()+"\r\n\r\n\r\n"+"修改"); 
 	}
 	
 }
